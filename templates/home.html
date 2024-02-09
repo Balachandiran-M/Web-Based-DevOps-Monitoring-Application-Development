@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        /* Center-align container */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Set height to full viewport height */
+            flex-direction: column; /* Stack items vertically */
+            border: 1px solid #7f2c2c; /* Add border */
+            background-color: #348e81; /* Light background color */
+            padding: 20px; /* Add padding */
+        }
+
+        /* Button container styles */
+        .button-container {
+            margin-top: 20px; /* Add some top margin */
+            text-align: center; /* Center-align button container */
+        }
+
+        /* Button styles */
+        .button {
+            display: inline-block; /* Make buttons display inline */
+            padding: 10px 20px; /* Add padding */
+            margin: 0 10px; /* Add margin between buttons */
+            background-color: #007bff; /* Blue button background */
+            color: #fff; /* White text color */
+            text-decoration: none; /* Remove underline */
+            border: none; /* Remove border */
+            border-radius: 4px; /* Add border radius */
+            cursor: pointer; /* Add cursor pointer */
+        }
+
+        /* Button hover effect */
+        .button:hover {
+            background-color: #0056b3; /* Dark blue hover color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, {{ username }}!</h2>
+        <p><a href="/logout">Logout</a></p>
+
+        <!-- Button container -->
+        <div class="button-container">
+            <a href="/portfolio" class="button">Portfolio</a>
+            <a href="/monitoring" class="button">Monitoring</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

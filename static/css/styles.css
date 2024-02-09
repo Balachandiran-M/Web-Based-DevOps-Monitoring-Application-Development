@@ -1,0 +1,101 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #faf8f9; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+/* Header styles */
+header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White text color */
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #343a40; /* Dark gray navigation background */
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40; /* Dark gray footer background */
+    color: #fff; /* White text color */
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Dark blue hover color */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Green submit button background */
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Dark green hover color */
+}
+
+/* Icon styles */
+.fa {
+    margin-right: 5px; /* Add some margin to the right of the icon */
+}

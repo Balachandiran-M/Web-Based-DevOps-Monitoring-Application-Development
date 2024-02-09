@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Monitoring</title>
+    <style>
+        /* Center-align container */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: #4b7cad; /* Light gray background */
+        }
+
+        /* Content container */
+        .container {
+            text-align: center;
+            border: 1px solid #392828; /* Add border */
+            padding: 40px; /* Increase padding for larger container */
+            background-color: #d6682d; /* White background */
+            border-radius: 10px; /* Add border radius */
+        }
+
+        /* Button styles */
+        button {
+            padding: 20px 40px; /* Increase padding for larger button */
+            font-size: 24px; /* Increase font size */
+            background-color: #38b45f; /* Blue button background */
+            color: #fff; /* White text color */
+            border: none;
+            border-radius: 8px; /* Increase border radius */
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Dark blue hover color */
+        }
+
+        /* Statistic styles */
+        .statistic {
+            margin-top: 20px;
+            font-size: 24px; /* Increase font size for statistics */
+        }
+
+        /* Progress bar container */
+        .progress-bar {
+            margin-top: 20px;
+            width: 80%; /* Set width of the progress bar container */
+            border: 1px solid #64e264; /* Add border */
+            border-radius: 5px; /* Add border radius */
+            position: relative; /* Position relative for the value label */
+        }
+
+        /* Progress bar */
+        .progress {
+            height: 20px; /* Set height of the progress bar */
+            background-color: #007bff; /* Blue progress bar color */
+            border-radius: 5px; /* Add border radius */
+        }
+
+        /* Value label */
+        .value {
+            position: absolute; /* Position absolute for the value label */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black; /* White text color */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Home page button icon -->
+        <p><a href="/"><button><i class="fas fa-home"></i> Home</button></a></p>
+
+        <h2 style="font-size: 36px;">Monitoring Page</h2>
+        <!-- Display CPU usage as speed bar with numeric value -->
+        <div class="statistic">
+            <p>CPU Usage:</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: {{ cpu_usage }}%;"></div>
+                <div class="value">{{ cpu_usage }}%</div> <!-- Display CPU usage value -->
+            </div>
+        </div>
+
+        <!-- Display memory usage as speed bar with numeric value -->
+        <div class="statistic">
+            <p>Memory Usage:</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: {{ memory_usage }}%;"></div>
+                <div class="value">{{ memory_usage }}%</div> <!-- Display memory usage value -->
+            </div>
+        </div>
+
+        <!-- Move "Go to Portfolio" button section down -->
+        <p style="margin-top: 40px;"><a href="/portfolio"><button>Go to Portfolio</button></a></p>
+    </div>
+</body>
+</html>
+
+
+
