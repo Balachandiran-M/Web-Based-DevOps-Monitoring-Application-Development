@@ -54,7 +54,8 @@ To streamline the entire process, I automated each stage using Jenkins, orchestr
   <li><strong>Stage 1:</strong> Fetching the application code from GitHub and initiating the build process.</li>
   <li><strong>Stage 2:</strong> Containerizing the application using Docker, ensuring encapsulation and ease of deployment.</li>
   <li><strong>Stage 3:</strong> Pushing the Dockerized application to Docker Hub, facilitating accessibility and version control.</li>
-  <li><strong>Stage 4:</strong> Finally, deploying the application onto the Kubernetes cluster (EKS) to ensure efficient management and scalability of the application.</li>
+  <li><strong>Stage 4:</strong> And, deploying the application onto the Kubernetes cluster (EKS) to ensure efficient management and scalability of the application.</li>
+  <li><strong>Stage 5:</strong> Finally, we access this application by using Load Balancer DNS Name. </li>
 </ol>
 
 ![Screenshot 2024-02-15 193931](https://github.com/Balachandiran-M/Web-Based-DevOps-Monitoring-Application-Development/assets/152047725/d06d883d-6579-436f-b484-5e93fc6a4fb2)
