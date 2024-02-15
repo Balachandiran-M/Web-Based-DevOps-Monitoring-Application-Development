@@ -4,6 +4,12 @@
 
 <p>
 Initially, I developed this monitoring application using Python, HTML, and CSS, leveraging the Python Flask framework. The application comprises essential functionalities such as signup, login, portfolio management, and monitoring sections.
+![Screenshot (208)](https://github.com/Balachandiran-M/Web-Based-DevOps-Monitoring-Application-Development/assets/152047725/05ea5214-9b08-436a-81f9-34922b27e0ac)
+![Screenshot (212)](https://github.com/Balachandiran-M/Web-Based-DevOps-Monitoring-Application-Development/assets/152047725/4e9bedd5-5bb5-4de2-8f35-210a72bfb7f7)
+![Screenshot (209)](https://github.com/Balachandiran-M/Web-Based-DevOps-Monitoring-Application-Development/assets/152047725/bbd144af-88e2-4889-995b-839eba111991)
+![Screenshot (210)](https://github.com/Balachandiran-M/Web-Based-DevOps-Monitoring-Application-Development/assets/152047725/d8045666-0aaf-44e7-9c59-5e1b72a6408e)
+
+  
 </p>
 
 <h2>Step 2: Containerization with Docker</h2>
