@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
       - name: python
-        image: nginx:latest
+        image: balachandiran61/python:1.1.1
         ports:
-        - containerPort: 80
+        - containerPort: 5000
 ---
 apiVersion: v1
 kind: Service
@@ -29,5 +29,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 80
+      targetPort: 5000
   type: LoadBalancer
